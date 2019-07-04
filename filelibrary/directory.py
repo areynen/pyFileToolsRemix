@@ -16,7 +16,8 @@ class Directory:
             self.path = None
 
     def __str__(self):
-        return f'Located at path: {self.path}\n' + f'It is named: {self.name}'
+        return f'Located at path: {self.path}\n' + \
+               f'It is named: {self.name}'
 
     # Returns True if it is a directory, False if it is not
     def is_dir(self, dir):

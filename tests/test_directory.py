@@ -14,7 +14,7 @@ class DirectoryTest(unittest.TestCase):
 
     def test_class_variables_real_dir(self):
         self.assertEqual(test_dir.path, TEST_DIR_PATH)
-        self.assertEqual(test_dir.name, str.split(TEST_DIR_PATH, '/')[-1])
+        self.assertEqual(test_dir.name, 'test')
 
     def test_class_variables_file(self):
         self.assertIsNone(test_file.path)
